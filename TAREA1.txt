@@ -1,0 +1,13 @@
+TAREA 1:
+
+hacer 5 Paginas Web
+a ustedes 
+
+1.- cree la pagina yo.html
+2.- mis amigos .html
+3.-mi familia.html
+4.-mis pasa tiempos.html
+5.- mi ciudad.html
+
+esta las direccion de carpetas de la tareas 
+C:\xampp\htdocs\DesarrolloWebATH
