@@ -1,0 +1,20 @@
+body{
+background-image: url("img/i2.gif");
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+
+p{
+color: #4F4FF5;
+font-family :"Segoe UI";
+font-size: x-large;
+}
+
+input{
+  width: 500px;
+  height: 40px;
+background-image: url("img/i1.gif");
+color:  #4F4FF5 ;
+font-family :"Segoe UI";
+font-size: x-large;
+}
