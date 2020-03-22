@@ -26,6 +26,7 @@
   <ul class="Lista" >
 
   <?php
+
     $Palabra = $_GET['Palabra'];
     $Iteracion = (strlen($Palabra)+1)/2;
     if (strlen($Palabra) % 2 == 0) {
@@ -39,7 +40,7 @@
       echo "  &nbsp;&nbsp; ";
       echo "  &nbsp;&nbsp; ";
     }
-      echo "<li><b>".substr($Palabra , ((strlen($Palabra)/2)+$x)  ,$y)."</b><br></li>";
+      echo "<li><b>".substr($Palabra , ((strlen($Palabra)/2)+$x)  ,$y)."</b><br></li>\n";
       $y+=2;
       $x--;
 
