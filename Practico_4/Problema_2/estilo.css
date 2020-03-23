@@ -1,5 +1,5 @@
 body{
-background-image: url("img/i1.gif");
+background-image: url("img/i2.gif");
 background-size: 100% 100%;
 background-attachment: fixed;
 }
@@ -23,4 +23,20 @@ background-image: url("img/i2.gif");
 color:  #E8E8EC ;
 font-family :"Segoe UI";
 font-size: x-large;
+}
+
+div{
+  width: 50%;
+  height: 10%;
+  color:  #E8E8EC ;
+  font-family :"Segoe UI";
+}
+
+#com{
+white-space:
+}
+
+table{
+  width: 50%;
+height: 20%;
 }
