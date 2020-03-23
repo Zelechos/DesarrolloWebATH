@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Ejercicio 2</title>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
-  </head>
-  <body>
-    <form action="TablaIntercalado.php" method="post" autocomplete="off">
-      <h1>Digite una Cantidad de Columnas y Filas para mostrar la Bandera Boliviana Y Chuquisaqueña : </h1>
-      <p>Digite el numero de Columnas</p>
-      <input type="text" name="Columnas"><br>
-      <p>Digite el numero de Filas</p>
-      <input type="text" name="Filas"><br><br><br>
-    <div>
-      <input type="submit" value="Mostrar">
-    </div>
+<html>
+<head>
+	<title>Ejercicio 2</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+
+	<meta charset="utf-8">
+</head>
+<body>
+    <form action="TablaIntercalado.php" method="POST">
+      <p>Digite el Numero de Filas : </p>
+    	<input type="number" name="filas"><br><br>
+      <p>Digite el Numero de Columnas : </p>
+    	<input type="number" name="columnas"><br><br>
+    	<input type="submit" value="Enviar">
     </form>
-  </body>
+</body>
 </html>
