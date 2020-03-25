@@ -26,10 +26,17 @@
 
   $nres = $_POST['n'];
   $resta=0;
-  for ($i=0; $i <$n ; $i++) {
-   $resta =$resta-$_POST['y'.$i];
+  $nresta=0;
+  $aux=0;
+  for ($i=0; $i <$nres ; $i++) {
+if ($resta == 0) {
+  $resta=$_POST['y'.$i];
+  $resta -=$aux;
+}else{
+  $nresta=$_POST['y'.$i];
+  $resta-=$nresta;  
+}
   }
-
   $resultado = $suma-$resta
   ?>
   <div style="text-align: center;">
