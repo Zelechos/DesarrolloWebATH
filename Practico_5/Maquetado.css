@@ -1,0 +1,62 @@
+#Contenedor{
+  width: 1200px;
+  height: 920px;
+  background: #D39C9C;
+  margin: 0.5em auto;
+  padding: 0.5em;
+}
+
+#Cabecera{
+width: 93%;
+height: 17%;
+margin: 1em auto;
+padding: 2.5em;
+background: blue;
+border-radius:1em;
+}
+
+#SubMaqueta{
+  height: 45%;
+  width: 93%;
+  background: yellow;
+  margin: 1em auto;
+  border-radius:1em;
+  padding: 2.5em ;
+}
+
+#PieDePagina{
+  height: 120px;
+  background : green;
+  margin: 0.2em ;
+  border-radius:1em;
+  padding: 0.1em ;
+}
+
+#Respuetas{
+  height: 105%;
+  width: 40%;
+  background : black;
+  border-radius:1em;
+  margin: -1em  ;
+  padding: 0em ;
+  float: right;
+}
+
+#SumarNum{
+  height: 50%;
+  width: 60%;
+  background : white;
+  border-radius:1em;
+  margin: -1em auto  ;
+  padding: 0em ;
+  float: left;
+}
+#RestarNum{
+  height: 50%;
+  width: 60%;
+  background : gray;
+  border-radius:1em;
+  margin: 2.5em auto ;
+  padding: 1.1em auto;
+  float:left;
+}
