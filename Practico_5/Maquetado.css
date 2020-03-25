@@ -1,9 +1,41 @@
+h1{
+font-family :"Segoe UI";
+color:  #E8E8EC ;
+size: 200px;
+margin: 0em auto;
+}
+p{
+color: #E8E8EC;
+font-family :"Segoe UI";
+font-size: x-large;
+}
+table{
+  color:  #E8E8EC ;
+  font-family :"Segoe UI";
+  font-size: 70px;
+  width: 300px;
+  height: 100px;
+  margin: 0em auto;
+}
+
+input{
+  width: 100px;
+  height: 40px;
+background-image: url("img/i1.png");
+color:  #E8E8EC ;
+font-family :"Segoe UI";
+font-size: x-large;
+}
+
 #Contenedor{
   width: 1200px;
   height: 920px;
   background: #D39C9C;
   margin: 0.5em auto;
   padding: 0.5em;
+  background-image: url("img/i4.gif");
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 #Cabecera{
@@ -11,7 +43,9 @@ width: 93%;
 height: 17%;
 margin: 1em auto;
 padding: 2.5em;
-background: blue;
+background-image: url("img/i20.gif");
+background-attachment: fixed;
+background-size: 100% 100%;
 border-radius:1em;
 }
 
@@ -22,6 +56,9 @@ border-radius:1em;
   margin: 1em auto;
   border-radius:1em;
   padding: 2.5em ;
+  background-image: url("img/i3.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 #PieDePagina{
@@ -30,33 +67,48 @@ border-radius:1em;
   margin: 0.2em ;
   border-radius:1em;
   padding: 0.1em ;
+  background-image: url("img/i5.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 #Respuetas{
   height: 105%;
   width: 40%;
-  background : black;
+  background : ;
   border-radius:1em;
   margin: -1em  ;
   padding: 0em ;
   float: right;
+  background-image: url("img/i1.gif");
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 #SumarNum{
-  height: 50%;
+  height: 105%;
   width: 60%;
   background : white;
   border-radius:1em;
   margin: -1em auto  ;
   padding: 0em ;
   float: left;
+  background-image: url("img/i3.gif");
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 #RestarNum{
-  height: 50%;
+  height: 20%;
   width: 60%;
   background : gray;
   border-radius:1em;
   margin: 2.5em auto ;
   padding: 1.1em auto;
   float:left;
+}
+
+body{
+  background-image: url("img/i7.gif");
+background-attachment: fixed;
+background-size: 100% 100%;
 }

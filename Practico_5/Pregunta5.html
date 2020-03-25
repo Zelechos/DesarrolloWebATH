@@ -2,32 +2,31 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Calculadora.liv</title>
     <link rel="stylesheet" type= "text/css" href="Maquetado.css">
   </head>
   <body>
     <div id="Contenedor">
        <div id="Cabecera">
-          <form action="llenar.php" method="POST">
-            <label for="n">Digite la cantidad de numeros que SUMARA y RESTARA.</label><br>
-            <input type="text" name="n"><br>
-            <input type="submit" value="Enviar">
+          <form action="llenar.php" method="POST" autocomplete="off">
+            <h1>Digite la cantidad de numeros que SUMARA y RESTARA.</h1>
+            <input type="text" name="n"><br><br>
+            <input type="submit" value="Introducir">
           </form>
        </div>
        <div id="SubMaqueta">
-         <div id="Ncuadros">
+         <div id="Respuetas">
+           <p>Los Resultados apareceran aqui.</p>
 
          </div>
-         <div id="Contenido">
-
+         <div id="SumarNum">
+<p>Numeros para Sumar y Restar </p>
          </div>
-         <div id="Contenido1">
 
-         </div>
 
        </div>
-       <div id="PieDePagina">
-
+       <div id="PieDePagina" align ="center">
+         <p>Calculadora con Cokies</p>
        </div>
     </div>
 
