@@ -127,10 +127,90 @@ header a:hover{
 #Cajas .caja{
   float: left;
   text-align: center;
-  width: 21%;
+  width: 19%;
   padding: 25px;
 }
 
 #Cajas .caja img{
   width: 100px;
+}
+
+.llenar input[type="text"]{
+  padding: 2px;
+  height: 25px;
+  width: 150px;
+  border-radius: 1em;
+  display: inline;
+  margin-left: 10px;
+  background-image: url("img/i7.gif");
+  color: #fff;
+}
+
+.llenar input[type="submit"]{
+  height: 38px;
+  width: 190px;
+  background-image: url("img/i7.gif");
+  border: 0.3;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+  border-radius: 1em;
+  margin-top: 110px;
+  margin-left: 50px;
+}
+
+.llenar{
+  background-image: url("img/i1.gif");
+  width: 1439px;
+  height: 400px;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-size: 100% 100%;
+}
+
+.llenar p{
+  float: left;
+  margin:auto;
+  padding-left:-100px;
+  color: #fff;
+}
+
+#Respuestas{
+  height: 200px;
+  background-image: url("img/i7.gif");
+  background-size: 100% 100%;
+  color: #fff;
+  padding: 10px;
+}
+
+#Respuestas tr{
+  float: left;
+}
+
+#Respuestas td{
+font-size: 200%;
+margin-left: 100px;
+}
+
+.resultados table{
+  margin: auto;
+}
+
+.resultados h2{
+  margin-left: 200px;;
+  font-size: 30px;
+}
+.resultados h1{
+  margin: auto;
+  font-size: 70px;
+}
+
+
+
+footer{
+  padding: 20px;
+  color: #fff;
+  background-color: #1293d4;
+  text-align: center;
 }
