@@ -1,0 +1,136 @@
+body{
+  font: 15px Arial,Helvetica,sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.Contenedor{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.boton1{
+  height: 38px;
+  background-image: url("img/i7.gif");
+  border: 0.3;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+header{
+  background-color: #24282b;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: 5px solid #1293d4;
+}
+
+header a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #Marca{
+  float: left;
+}
+
+header #Marca h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .Resaltar , header .Actual a {
+  color: #1293d4;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #31FA00;
+  font-weight: bold;
+}
+
+#Cabecera{
+  min-height: 500px;
+  background-image: url("img/i20.gif");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #fff;
+}
+
+#Cabecera h1{
+  text-align: left;
+  margin-top: 60px;
+  margin-right: 300px;
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+ section h1:hover{
+   color: #1293d4;
+   font-weight: bold;
+ }
+
+#Cabecera p{
+  font-size: 20px;
+}
+
+#Boletin{
+  padding: 15px;
+  color: #fff;
+  background: #24282b;
+}
+
+#Boletin h1{
+  float: left;
+}
+
+#Boletin form{
+  float: right;
+  margin-top: 15px;
+}
+
+#Boletin input[type="text"]{
+  padding: 4px;
+  height: 25px;
+  width: 270px;
+  border-radius: 1em;
+}
+
+.boton1{
+  width: 150px;
+  border-radius: 1em
+}
+
+#Cajas{
+  margin-top: 20px;
+}
+
+#Cajas .caja{
+  float: left;
+  text-align: center;
+  width: 21%;
+  padding: 25px;
+}
+
+#Cajas .caja img{
+  width: 100px;
+}
