@@ -1,4 +1,7 @@
-<?php session_start();?>
+<?php
+$cantidad = $_POST['Cantidad'];
+setcookie("S",$cantidad,time()+3600);
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -20,8 +23,8 @@
           <ul>
             <li><a href="Tarea6.html">Inicio</a></li>
             <li><a href="llenar.php">Sumar y Restar (Sesiones)</a></li>
-            <li><a href="llenarCook.php">Sumar y Restar (Cookies)</a></li>
-            <li class="Actual"><a href="restas.php">Sesiones</a></li>
+            <li class="Actual"><a href="llenarCook.php">Sumar y Restar (Cookies)</a></li>
+            <li><a href="restas.php">Sesiones</a></li>
             <li><a href="restascok.php">Cookies</a></li>
           </ul>
         </nav>
@@ -42,7 +45,7 @@
     <section id="Boletin">
       <div class="Contenedor">
         <h1>Digite la cantidad de Numeros que Sumara y Restara</h1>
-        <form action="llenar.php" method="POST">
+        <form action="llenarCook.php" method="POST">
           <input autocomplete="off" type="text" name="Cantidad" placeholder="Ingrese la cantidad de numeros">
           <button type="submit" class="boton1">Ingresar</button>
         </form>
@@ -51,7 +54,7 @@
 
     <section id="Cajas">
       <div class="Contenedor">
-        <div class="caja">
+      <div class="caja">
           <img src="img/i1.png">
           <h3>HTML5</h3>
           <p>Esta pagina fue creada en parte en HTML5</p>
@@ -71,27 +74,25 @@
           <h3>PHP</h3>
           <p>Esta pagina fue creada en parte con PHP</p>
         </div>
-
-      </div>
-
-    </section>
-    <section id="Respuestas">
-      <div class="resultados" >
-        <p><h2>Los Resultados son : </h2></p>
-          <table border="2">
-            <?php
-            $limite=$_SESSION['S'];
-            $resta=0;
-            for ($i=0; $i < $limite ; $i++) {
-              $resta=$_POST['x'.$i]-$_POST['y'.$i];?>
-                <tr>
-                  <td><h1><?php echo $resta;?></h1></td>
-                <tr>
-            <?php
-            }
-            ?>
-          </table>
         </div>
+
+        <div class="llenar">
+        <br>
+      <form action="restascok.php" method="POST">
+        <h2><p>Los Numeros a Sumar :</p></h2><br><br>
+        <?php
+        for ($i=0; $i < $cantidad ; $i++) {?>
+        <input placeholder="Inserte Numero" autocomplete="off" type="text" name="x<?php echo $i; ?>">
+      <?php } ?>
+        <br><br>
+       <h2><p>Los Numeros a Restar: </p></h2><br><br>
+        <?php for ($i=0; $i < $cantidad ; $i++) {?>
+        <input placeholder="Inserte Numero" autocomplete="off" type="text" name="y<?php echo $i; ?>">
+      <?php } ?>
+        <br>
+        <input type="submit" value="Calcular">
+      </form>
+    </div>
     </section>
 
     <footer>

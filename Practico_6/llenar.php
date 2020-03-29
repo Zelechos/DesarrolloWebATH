@@ -22,7 +22,7 @@
             <li class="Actual"><a href="llenar.php">Sumar y Restar (Sesiones)</a></li>
             <li><a href="llenarCook.php">Sumar y Restar (Cookies)</a></li>
             <li><a href="restas.php">Sesiones</a></li>
-            <li><a href="cookies.html">Cookies</a></li>
+            <li><a href="restascok.php">Cookies</a></li>
           </ul>
         </nav>
       </div>

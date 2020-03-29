@@ -161,12 +161,13 @@ header a:hover{
 
 .llenar{
   background-image: url("img/i1.gif");
-  width: 1439px;
+  background-size: 100% 100%;
+  background-attachment: fixed;
   height: 400px;
   margin-top: 10px;
   margin-left: 0px;
-  margin-right: 0px;
-  background-size: 100% 100%;
+  margin-right: -3px;
+
 }
 
 .llenar p{

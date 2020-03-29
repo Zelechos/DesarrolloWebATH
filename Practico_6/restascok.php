@@ -21,8 +21,8 @@
             <li><a href="Tarea6.html">Inicio</a></li>
             <li><a href="llenar.php">Sumar y Restar (Sesiones)</a></li>
             <li><a href="llenarCook.php">Sumar y Restar (Cookies)</a></li>
-            <li class="Actual"><a href="restas.php">Sesiones</a></li>
-            <li><a href="restascok.php">Cookies</a></li>
+            <li><a href="restas.php">Sesiones</a></li>
+            <li class="Actual"><a href="restascok.php">Cookies</a></li>
           </ul>
         </nav>
       </div>
@@ -42,7 +42,7 @@
     <section id="Boletin">
       <div class="Contenedor">
         <h1>Digite la cantidad de Numeros que Sumara y Restara</h1>
-        <form action="llenar.php" method="POST">
+        <form action="llenarCook.php" method="POST">
           <input autocomplete="off" type="text" name="Cantidad" placeholder="Ingrese la cantidad de numeros">
           <button type="submit" class="boton1">Ingresar</button>
         </form>
@@ -80,7 +80,7 @@
         <p><h2>Los Resultados son : </h2></p>
           <table border="2">
             <?php
-            $limite=$_SESSION['S'];
+            $limite=$_COOKIE['S'];
             $resta=0;
             for ($i=0; $i < $limite ; $i++) {
               $resta=$_POST['x'.$i]-$_POST['y'.$i];?>
