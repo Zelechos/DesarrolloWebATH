@@ -1,0 +1,97 @@
+#Izquierda{
+  width: 50.6%;
+  height:750px;
+  background-color: #ffffff;
+  float: left;
+  margin-left: -10px;
+  margin-top: -10px;
+  position: fixed;
+  color: #3927cc;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#Derecha{
+  width: 50.6%;
+  height: 4100px;
+  background-color: #5f41f4;
+  float: right;
+  margin-right: -10px;
+  margin-top: -10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+}
+h1{
+  font-size: 60px;
+}
+
+table {
+  border-collapse: collapse;
+  border: #3927cc 3px solid;
+  margin: auto;
+  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  width: 70% auto;
+  height: 250px;
+  font-size: 15px;
+}
+
+th{
+  background-color: #3927cc;
+  color: #fff;
+  width: 90px;
+  height: 40px;
+}
+
+td{
+  background-color: #fbfbfb;
+  color: #3927cc;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  margin: auto;
+  border: #3927cc 1px solid;
+}
+
+div #code1{
+  width: 700px;
+  height: 160px;
+  background-color: #ffffff;
+  margin: auto;
+  margin-left: -30px;
+  color: black;
+  font-family: monospace;
+}
+
+div #code2{
+  width: 700px;
+  height: 1000px;
+  background-color: #ffffff;
+  margin: auto;
+  margin-left: -30px;
+  color: black;
+  font-family: monospace;
+}
+
+div #code4{
+  width: 700px;
+  height: 2000px;
+  background-color: #ffffff;
+  margin: auto;
+  margin-left: -30px;
+  color: black;
+  font-family: monospace;
+}
+
+div #code3{
+  width: 700px;
+  height: 80px;
+  background-color: #ffffff;
+  margin: auto;
+  margin-left: -30px;
+  color: black;
+  font-family: monospace;
+}
+
+a{
+  margin-left: 300px;
+}
