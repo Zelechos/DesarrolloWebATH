@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="Estilos.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+    </style>
+    <title>Crear Habitacion</title>
+  </head>
+  <body>
+<h2>Insertar Datos</h2>
+
+    <form action="insertar.php" method="post">
+      <div class="Insertar">
+      <label for="selDescripcion">Tipo Habitacion</label><br>
+      <select name="selDescripcion">
+        <option value="1">Comun</option>
+        <option value="2">Double</option>
+        <option value="3">Triple</option>
+        <option value="4">Matrimonial</option>
+        <option value="5">Quad</option>
+        <option value="6">Suite</option>
+      </select><br><br>
+      <label for="txtNumero">Numero</label><br>
+      <input type="number" name="txtNumero"><br><br>
+      <label for="txtBañoPrivado">Baño Privado</label><br>
+      <input type="number" name="txtBañoPrivado"><br><br>
+      <label for="txtEspacio">Espacio</label><br>
+      <input type="float" name="txtEspacio"><br><br>
+      <label for="txtPrecio">Precio</label><br>
+      <input type="float" name="txtPrecio"><br>
+      <input type="submit" value="Registrar">
+    </div>
+
+    </form>
+
+  </body>
+</html>
