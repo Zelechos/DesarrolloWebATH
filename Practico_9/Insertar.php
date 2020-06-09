@@ -1,4 +1,6 @@
 <?php include("Conexion.php");
+session_start();
+if (isset($_SESSION['nombre'])) {
 $ID = $_POST['ID'];
 $Correo = $_POST['Correo'];
 $Contraseña = $_POST['Contraseña'];
@@ -17,3 +19,10 @@ else
     echo "<h1>hubo un error</h1>";
 ?>
 <meta http-equiv="refresh" content="3;URL=Usuario.php">
+<?php } else {
+  ?>
+  <div id="m">
+     Usted no esta autorizado para ver esta pagina
+  </div>
+  <meta http-equiv="refresh" content="3;URL=Login.html">
+<?php  } ?>

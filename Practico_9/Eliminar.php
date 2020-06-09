@@ -1,4 +1,6 @@
 <?php include("Conexion.php");
+session_start();
+if (isset($_SESSION['nombre'])) {
 $id=$_GET['id'];
 $Estado = 'E';
 
@@ -13,3 +15,10 @@ else
   ?>
 
 <meta http-equiv="refresh" content="3;URL=Usuario.php">
+<?php } else {
+  ?>
+  <div id="m">
+     Usted no esta autorizado para ver esta pagina
+  </div>
+  <meta http-equiv="refresh" content="3;URL=Login.html">
+<?php  } ?>

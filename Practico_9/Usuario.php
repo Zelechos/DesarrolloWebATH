@@ -1,5 +1,5 @@
 <?php session_start();
-if (isset($_SESSION['nombre']) && isset($_SESSION['roles'])) { ?>
+if (isset($_SESSION['nombre'])) { ?>
 
 <?php include("Conexion.php");
 $Sql = "select usuarios.ID,Correo,Password,Nombres,Apellidos,Descripción,Estado from usuarios
@@ -29,7 +29,9 @@ $RespuestaServidor = $Conexion->query($Sql);
       <th>Apellido</th>
       <th>ID_Rol</th>
       <th>Estado</th>
+      <?php  if($_SESSION['roles'] == 1){?>
       <th>Acciones</th>
+    <?php } ?>
       <tr>
         <?php while($Fila = $RespuestaServidor->fetch_assoc()){?>
         <tr>
@@ -40,16 +42,20 @@ $RespuestaServidor = $Conexion->query($Sql);
           <td><?php echo $Fila['Apellidos'];?></td>
           <td><?php echo $Fila['Descripción'];?></td>
           <td><?php echo $Fila['Estado'];?></td>
+          <?php  if($_SESSION['roles'] == 1){?>
           <td>
             <strong><a href="Editar.php?id=<?php echo $Fila['ID']?>"><img src="img/edit.png"  width="25px" height="25px" >Editar</a></strong>
             <strong><a href="Eliminar.php?id=<?php echo $Fila['ID']?>"><img src="img/delete.png"  width="25px" height="25px">Eliminar</a></strong>
           </td>
+        <?php } ?>
         </tr>
         <?php } ?>
       </tr>
     </table>
     <ul>
+      <?php  if($_SESSION['roles'] == 1){?>
       <li><strong><a href="FormInsertar.html"><img src="img/insert.png"  width="25px" height="25px"/>Crear Cuenta</a></strong></li>
+    <?php } ?>
     </ul>
   </body>
 </html>
