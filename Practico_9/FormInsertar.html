@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="Estilos.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+    </style>
+    <title>Vitacora de Ingreso</title>
+  </head>
+  <body>
+    <h5>Digite sus datos</h5>
+    <form action="Insertar.php" method="post" class="Insertar">
+      <label for="ID">ID</label>
+      <input type="number" name="ID"/><br><br>
+      <label for="Correo">Correo</label>
+      <input type="text" name="Correo" /><br><br>
+      <label for="Contraseña">Constraseña</label>
+      <input type="password" name="Contraseña"><br><br>
+      <label for="Nombre">Nombre</label>
+      <input type="text" name="Nombre" /><br><br>
+      <label for="Apellido">Apellido</label>
+      <input type="text" name="Apellido"/><br><br>
+
+      <label for="ID_Roles">Roles</label>
+        <select name="ID_Roles">
+          <option value="1">Administrador</option>
+          <option value="2">Recepcionista</option>
+        </select><br><br>
+      <label for="Estado">Estado</label>
+      <input type="text" name="Estado" /><br><br>
+      <input type="submit" name="Registrar" value="Registrar">
+    </form>
+
+  </body>
+</html>

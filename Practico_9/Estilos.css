@@ -1,0 +1,102 @@
+table {
+  border-collapse: collapse;
+  border: #cb0c0c 3px solid;
+  margin: auto;
+  margin-top: 20px;
+  width: 99%;
+  font-family: 'Montserrat', sans-serif;
+  height: 250px;
+  font-size: 10px;
+}
+
+th{
+  background-color: #cb0c0c;
+  color: #ffffff;
+  width: 160px;
+  height: 50px;
+  font-size: 20px;
+}
+
+td{
+  border: #cb0c0c 2px solid;
+  width: 350px;
+  height: 50px;
+  text-align: center;
+  font-size: 15px;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #cb0c0c;
+}
+
+form{
+  text-align: center;;
+}
+a{
+  color: #cb0c0c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
+}
+
+li a{
+  color: #cb0c0c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+#Cerrar{
+  color: #cb0c0c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+.Insertar input{
+  font-family: 'Montserrat', sans-serif;
+  height: 25px;
+  width: 270px;
+  border: #cb0c0c 1px solid;
+  border-radius: 0.5em;
+  font-size: 15px;
+  color: #cb0c0c;
+
+}
+
+.Insertar input[type="submit"]{
+  height: 30px;
+  width: 125px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #cb0c0c;
+}
+.Insertar input[type="reset"]{
+  height: 30px;
+  width: 125px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #cb0c0c;
+}
+
+.Insertar select{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  height: 30px;
+  width: 155px;
+  border: #cb0c0c 1px solid;
+  border-radius: 1em;
+  color: #cb0c0c;
+}
+
+#m{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #cb0c0c;
+}
+
+h1{
+  color: #cb0c0c;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
