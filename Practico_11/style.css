@@ -1,0 +1,84 @@
+body{
+    background-color: #2a2f2f;
+}
+
+#Formularios{
+    position:top;
+    margin-top: 10px;
+    margin-left: 9px;
+    background-color: blue;
+    width:99%;
+    height: 150px;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    padding-top:10px;
+}
+
+#boton{
+    width: 150px;
+    height: 150px;
+    border-radius: 70px;
+    margin-top: 10px;
+    font-size: 20px; 
+    font-family:'Montserrat', sans-serif;
+    color: aliceblue;
+    background-color:#3c0a99;
+}
+
+#main{
+    width:90%;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 85px;
+    text-align: center;
+    background-color: cornsilk;
+    color: antiquewhite;
+    font-family:'Montserrat', sans-serif;
+    background-image: url("img/ahorcado.gif");
+    background-size: 100% 100%;
+}
+#Formularios input{
+    width: 40px;
+    height: 40px;
+    font-size: 30px; 
+    font-family:'Montserrat', sans-serif;
+    color: aliceblue;
+    background-image: url("img/i7.gif");
+}
+#Input{
+    margin-top: 580px;
+    background-color: brown;
+    position: absolute;
+    font-family:'Montserrat', sans-serif;
+    width: 99%;
+    height: 150px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#Input input[type=text]{
+    width: 40px;
+    height:40px;
+    font-size: 30px; 
+    font-family:'Montserrat', sans-serif;
+    background-image: url("img/i7.gif");
+    color: aliceblue;
+}
+
+#Ahorcado{
+    width:99%;
+    height: 300px;
+    margin-top: 220px;
+    position: absolute;
+    background-attachment: fixed;
+    text-align: center;
+} 
+
+#Input input[type=button]{
+    width: 200px;
+    height:30px;
+    font-size: 20px; 
+    font-family:'Montserrat', sans-serif;
+    color: aliceblue;
+    background-image: url("img/i7.gif");
+}
