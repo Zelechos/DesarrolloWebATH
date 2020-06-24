@@ -1,0 +1,55 @@
+body{
+    background-image: url("img/fondo.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family:'Montserrat', sans-serif;
+    color: aliceblue;
+    margin: 0px;
+    margin-left: 500px;
+}
+#Resultado{
+    border: 3px;
+    border: solid;
+    width: 500px;
+    height: 200px;
+    margin-left: 500px;
+    margin-top:10px;
+    text-align: center;
+    position: fixed;
+    float: inherit;
+    border-color: aliceblue;
+}
+
+p{
+    font-family:'Montserrat', sans-serif;
+    color: aliceblue;
+}
+#imagen{
+    margin-top: 60px;
+}
+
+#Fondos{
+    margin-left:1050px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family:'Montserrat', sans-serif;
+
+}
+
+#Verde{
+    color:#31FA00;
+}
+#Rojo{
+    color:#fa0000;
+}
+#Azul{
+    color:#2500fa;
+}
+
+#RadioBotones{
+    margin-left: 150px;
+    margin-top: 100px;
+}

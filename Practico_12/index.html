@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practico 12 </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+    </style>
+</head>
+<body>
+    
+    <div id="RadioBotones">
+    <p><input name="Opciones" type="radio" value="SI"  onchange="Opciones()">SI</p> 
+    <p><input name="Opciones" type="radio" value="NO"  onchange="Opciones()">NO</p> 
+    <p><input name="Opciones" type="radio" value="NS/NC" checked="checked" onchange="Opciones()">NS/NC</p> 
+    </div>
+    <h1>Muestra : </h1>
+    <div id="Resultado">
+        <img id="imagen">
+    </div>
+
+    <div id="Fondos">
+        <p id="Verde" onclick="Verde()">Verde</p>
+        <p id="Rojo" onclick="Rojo()">Rojo</p>
+        <p id="Azul" onclick="Azul()">Azul</p>
+    </div>
+    
+    <script type="text/javascript" src="CssDom.js"></script>
+</body>
+</html>
