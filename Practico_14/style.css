@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://cso.computerworld.es/archivos/201703/hackers.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+#Ecuacion{
+    background-color: cornflowerblue;
+    width: 700px;
+    height: 450px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 30px;
+    font-family: "Montserrat", sans-serif;
+    color: azure;
+}
+
+input{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+#a{
+    margin-left: 33%;
+    margin-top: 5%;
+}
+
+#Ecuacion input[type="button"]{
+    width: 150px;
+    margin-left: 40%;
+    border-radius: 20px;
+    color: deepskyblue;
+    font-size: 20px;
+}
+
+h3{
+    text-align: center;
+}
+
+#Resultados{
+    font-size: 25px;
+    text-align: center;
+}
