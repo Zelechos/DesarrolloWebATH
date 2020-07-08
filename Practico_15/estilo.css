@@ -2,11 +2,17 @@ body{
     font-family: "Montserrat", sans-serif;
     background-image:url("img/Royal.jpg") ;
 }
+
+h1{
+    text-align: center;
+    color: aliceblue;
+
+}
 #Contenedor{
     font-family: "Montserrat", sans-serif;
     width: 1250px;
     height: 600px;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     background-image: url("img/What\ lies\ Beyond.jpg");
@@ -32,6 +38,8 @@ body{
     margin-right: 10px;
     margin-top: 10px;
     border-radius: 10px;
+    color: azure;
+    text-align: center;
 }
 
 .Boton{
@@ -62,6 +70,64 @@ body{
     background-color:#734b6d;
     color: aliceblue;
     text-decoration: dashed;
+}
 
-    
+#Enlace{
+    text-decoration: dashed;
+    color: aliceblue;
+}
+
+#Insertar{
+    font-size: 20px;
+}
+#Insertar input[type="text"]{
+    font-family: "Montserrat", sans-serif;
+    width: 300px;
+    height: 30px;
+    color: rgb(20, 72, 117);
+    font-size: 20px;
+    border-radius: 10px;
+}
+#Insertar input[type="button"]{
+    font-family: "Montserrat", sans-serif;
+    width: 150px;
+    height: 35px;
+    background-color: rgb(20, 72, 117);
+    font-size: 15px;
+    border-radius: 10px;
+    color: beige;
+}
+
+#Insertar input[type="submit"]{
+    font-family: "Montserrat", sans-serif;
+    width: 150px;
+    height: 35px;
+    background-color: rgb(20, 72, 117);
+    font-size: 15px;
+    border-radius: 10px;
+    color: beige;
+}
+
+#Tabla{ 
+    border-radius: 10px;
+    border-collapse: collapse;
+    border: #86A8E7 3px solid;
+    margin: auto;
+    margin-top: 10px;
+    width: 99%;
+    font-family: 'Montserrat', sans-serif;
+    height: 95%;
+    font-size: 20px;
+    color: #9dbaf0;
+}
+
+th{
+    background-color: #86A8E7;
+    color: blue;
+    text-align: center;
+}
+
+td{
+    background-color: #7070c7;
+    text-align: center;
 }
