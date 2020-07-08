@@ -13,19 +13,12 @@
     
 </body>
 </html>
-<?php 
-include("Conexion.php");
+<?php include("Conexion.php");
+$ID = $_POST['ID'];
 $Nombre = $_POST['Nombre'];
 $Apellido = $_POST['Apellido'];
 
-$SQL ="insert into persona (Nombre, Apellido) values('$Nombre', '$Apellido')";
-
-$Respuesta =$Conexion->query($SQL);
-if($Respuesta){
-    echo "Se registro con exito";
-}else{
-    echo"Error";
-}
+$SQL4 = "update persona set Nombre='$Nombre ',Apellido='$Apellido' where ID=".$ID;
+$Respuesta = $Conexion->query($SQL4);
 ?>
-
-
+    <meta http-equiv="refresh"  content="0;URL=index.html">

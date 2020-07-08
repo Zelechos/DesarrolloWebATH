@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practico 15</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+    </style>
 </head>
 <body>
     <div id="Contenedor">
         <div id="Navegacion">
-            <a class="Boton" id="B_Listar" href="javascript:Cargar('listar.php')">Listar</a>
-            <a class="Boton" id="B_Insertar" href="javascript:Cargar('insertar.html')">Insertar</a>
+            <br>
+            <a class="Boton" id="B_Listar" href="javascript:Cargar('listar.php')">Listar</a><br><br><br>
+            <a class="Boton1" id="B_Insertar" href="javascript:Cargar('insertar.html')">Insertar</a>
         </div>
         <div id="Contenido">
-            <a href="Conexion.php">Conectar</a>
+            <a href = "Conexion.php"></a>
         </div>
 
     </div>    
@@ -46,6 +50,40 @@
             }
             ajax.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
             ajax.send(direccion);
+        }
+
+        function Editar(id){
+            
+            var ajax = new XMLHttpRequest();
+
+            var direccion = "ID="+ id + "&nocache=" + Math.random();
+            //alert(direccion);
+            ajax.open("post", "Editar.php", true);
+            ajax.onreadystatechange = function(){
+                if(ajax.readyState == 4){
+                    document.getElementById("Contenido").innerHTML = ajax.responseText;
+                }
+            }
+            ajax.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+            ajax.send(direccion);
+
+        }
+
+        function Eliminar(id){
+            
+            var ajax = new XMLHttpRequest();
+
+            var direccion = "ID="+ id + "&nocache=" + Math.random();
+            //alert(direccion);
+            ajax.open("post", "Eliminar.php", true);
+            ajax.onreadystatechange = function(){
+                if(ajax.readyState == 4){
+                    document.getElementById("Contenido").innerHTML = ajax.responseText;
+                }
+            }
+            ajax.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+            ajax.send(direccion);
+            
         }
 
     </script>

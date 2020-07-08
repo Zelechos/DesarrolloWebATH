@@ -1,26 +1,67 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    background-image:url("img/Royal.jpg") ;
+}
 #Contenedor{
-    width: 1200px;
+    font-family: "Montserrat", sans-serif;
+    width: 1250px;
     height: 600px;
-    background-color: aqua;
-    margin: auto;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("img/What\ lies\ Beyond.jpg");
+    border-radius: 10px;
 }
 
 #Navegacion{
     width: 400px;
     height: 580px;
-    background-color: blueviolet;
+    background-image: url("img/Amin.png");
     float: left;
-    margin: auto;
+    margin-left: 10px;;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#Contenido{
+    width: 820px;
+    height: 580px;
+    background-image: url("img/Frost.png");
+    float: right;
+    margin-right: 10px;
     margin-top: 10px;
     border-radius: 10px;
 }
 
-#Contenido{
-    width: 790px;
-    height: 580px;
-    background-color: brown;
-    float: right;
-    margin: auto;
-    margin-top: 10px;
+.Boton{
+    font-family: "Montserrat", sans-serif;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;;
     border-radius: 10px;
+    background-color:#734b6d;
+    color: aliceblue;
+    text-decoration: dashed;
+    
+
+}
+.Boton1{
+    font-family: "Montserrat", sans-serif;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color:#734b6d;
+    color: aliceblue;
+    text-decoration: dashed;
+
+    
 }

@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+    </style>
 </head>
 <body>
     <?php include('Conexion.php');
-    $SQL2 = "select Nombre , Apellido from persona";
+    $SQL2 = "select ID , Nombre , Apellido from persona";
     $Respuesta2 = $Conexion->query($SQL2);
     ?>
     <table>
@@ -23,8 +27,8 @@
         <td><?php echo $Fila['Nombre'];?></td>
         <td><?php echo $Fila['Apellido'];?></td>
         <td>
-            <a href="Editar.php">Editar</a>
-            <a href="Editar.php">Eliminar</a>
+            <a href="javascript:Editar(<?php echo $Fila ['ID']; ?>)">Editar</a>
+            <a href="javascript:Eliminar(<?php echo $Fila ['ID']; ?>)">Eliminar</a>
         </td>
     </tr>
     <?php } ?>

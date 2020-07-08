@@ -13,19 +13,14 @@
     
 </body>
 </html>
-<?php 
-include("Conexion.php");
-$Nombre = $_POST['Nombre'];
-$Apellido = $_POST['Apellido'];
+<?php include("Conexion.php");
+$ID=$_POST['ID'];
+$SQL4 = "DELETE from persona where ID=$ID";
 
-$SQL ="insert into persona (Nombre, Apellido) values('$Nombre', '$Apellido')";
-
-$Respuesta =$Conexion->query($SQL);
-if($Respuesta){
-    echo "Se registro con exito";
-}else{
-    echo"Error";
-}
+$Resultado = $Conexion->query($SQL4);
+if($Resultado)
+    echo "<h1>Se Elimino al Usuario</h1>";
+else
+    echo "<h1>hubo error</h1>";
 ?>
-
-
+<meta http-equiv="refresh" content="3;URL=index.html">
