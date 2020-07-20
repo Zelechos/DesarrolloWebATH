@@ -1,0 +1,125 @@
+#Contenedor{
+    width: 900px;
+    height: 700px;
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+#Cabezera{
+    width: 900px;
+    height: 200px;
+    background-color: lightblue;
+}
+
+#Menu{
+    width: 120px;
+    height: 500px;
+    background-color: #222020;
+    float: left;
+    text-align: center;
+}
+
+#Contenido{
+    width: 780px;
+    height: 500px;
+    background-color: #bbbbbb;
+    float: right;
+}
+
+#Menu ul{
+    color: #222020;
+    clear: both;
+    width: 100px;
+    list-style: none;
+    margin-left: -30px;
+    margin-right: 10px ;
+    font-size: 15px;
+}
+
+#Menu li{
+    border : 1px solid #222020;
+    background-color: aliceblue;
+    padding: 0.5em ;
+}
+
+
+#green{
+    color: green;
+}
+
+#red{
+    color: red;
+    
+}
+
+#yellow{
+    color: yellow;
+}
+
+#subtitle{
+    font-size: 25px;
+    color: blue;
+    text-align: center;
+    margin-right: 120px;
+    margin-left: -220px;
+}
+#carrera{
+    margin-right: 100px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+
+img{
+    float: left;
+    margin-top: -70px;
+    margin-left: 20px;
+}
+
+#Ej2{
+    border-collapse: collapse;
+    background-color: green;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#Ej2 td{
+    border: solid;
+    padding: 10px;
+}
+
+input{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: #222020;
+    font-family: "Montserrat", sans-serif;
+}
+
+input[type="submit"]{
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: #222020;
+    border-color: #807979;
+    background-color: darkgreen;
+    color: #bbbbbb;
+    font-family: "Montserrat", sans-serif;
+}
+
+input[type="number"]{
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: #222020;
+    font-family: "Montserrat", sans-serif;
+}
