@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Parcial</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+    </style>
+</head>
+<body>
+    <div id="Contenedor">
+        <div id="Cabezera">
+            <h1>Universidad de San Francisco Xavier</h1>
+            <img src="img/usfx.png" width="100px" height="120px">
+            <p>
+                <strong id="subtitle">Falcultad de Tecnologia</strong>  
+                <strong id="red">Sucr</strong><strong id="yellow">e-Bol</strong><strong id="green">ivia</strong>
+            </p>
+            <p id="carrera">
+                Carrera de Ing en Ciencias de la Computacion <br>
+                Semestre 1-2020
+            </p>
+    
+        </div>
+        <div id="Menu">
+            <ul>
+                <li><a href="index.html">1.Indice</a></li>
+                <li><a href="formcalendario.html">2.Calendario</a> </li>
+                <li><a href="formEj3.html">Ejercicio 3</a> </li>
+                <li><a href="fitroduccion.html">4.Jurados</a> </li>
+            </ul>
+            
+        </div>
+        <div id="Contenido">
+            <div id="formcalendario ">
+                <blockquote>
+                <form action="calendario.php" method="GET">
+                <label for="Meses">Mes</label>
+                <select name="Meses" id="meses">
+                    <option value="1">Enero</option>
+                    <option value="2">Febrero</option>
+                    <option value="3">Marzo</option>
+                    <option value="4" >Abril</option>
+                    <option value="5">Mayo</option>
+                    <option value="6">Junio</option>
+                    <option value="7">Julio</option>
+                    <option value="8">Agosto</option>
+                    <option value="9">Septiembre</option>
+                    <option value="10">Octubre</option>
+                    <option value="11">Noviembre</option>
+                    <option value="12">Diciembre</option>
+                </select>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="Año">Año</label>
+                <input type="number " name="Año"><br><br>
+                <input type="submit" name="Enviar">
+            </blockquote>
+        </form>    
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
