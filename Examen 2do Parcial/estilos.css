@@ -2,7 +2,6 @@
 {
 	margin: 0 auto;
 	text-align: center;
-
 }
 #cabeza {
 	width: 900px;
@@ -32,20 +31,16 @@
 	background-color: #366F91;	
 }
 #resultado {
-	width: 770px;
-	height: 400px;
-	background-color: yellow;
-
+	width: 820px;
+	height: 150px;
+	margin-top: 150px;
+	background-color: #00B050;
 }
 #pie {
 	width: 900px;
 	clear: both;
 	background-color: #4C9BD3;
-
 }
-
-
-
 #tabla{
 	height: 350px;
 	width: 150px;
@@ -106,17 +101,13 @@ th {
 }	  
 
 /*Ejercicio 1*/
-#Verde ,
-#Rojo,
-#Azul,
-#Amarillo{
-	padding: 5px;
-}
-
-#Botones{
-	padding-left: 50px;
-	width: 250px;
-	float: left;
-	background-color: #00B050;
+#buttons{
+	height:100px;
+	background-color: #366F91;
 	text-align: center;
 }
+
+#red,#green{
+	margin-right: 100px;
+}
+
