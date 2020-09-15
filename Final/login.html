@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    </head>
+    <body>
+        <!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Practica 16</title>
+    <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body style="background-image: url('img/Witching Hour.jpg'); background-size: 100% 100%;">
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-12 bg-light content-inline ">
+                        <div class="col-md-6 float-left">
+                            <h2>Introduzca Sus Datos</h2>
+                                <form method="POST">
+                                <div class="form-group">
+                                    <label for="Correo">Email address</label>
+                                    <input type="email" class="form-control" id="Correo" aria-describedby="emailHelp">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                    <div class="form-group">
+                                        <label for="Password">Password</label>
+                                        <input type="password" class="form-control" id="Password" placeholder="Usa el Teclado Numerico para introducir tu Password" onclick="deshabilitar()">
+                                    </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                            </form>
+                                
+                                <button type="submit" class="btn btn-primary" ><a href="javascript:Autenticar();" class="text-light" >Submit</a></button>
+                        </div>
+                        <div class="col-md-6 float-right text-center ">
+                            <h2>Introduzca La Contraseña por el Teclado Numerico</h2>
+                                <button onclick="Boton1();" id="1" type="button" class="btn btn-secondary" value="1">1</button>
+                                <button onclick="Boton2();" id="2" type="button" class="btn btn-secondary" value="2">2</button>
+                                <button onclick="Boton3();" id="3" type="button" class="btn btn-secondary" value="3">3</button><br>
+                
+                                <button onclick="Boton4();" id="4" type="button" class="btn btn-secondary" value="4">4</button>
+                                <button id="5" onclick="Boton5();" type="button" class="btn btn-secondary" value="5">5</button>
+                                <button onclick="Boton6();" id="6" type="button" class="btn btn-secondary" value="6">6</button><br>
+                
+                                <button onclick="Boton7();" id="7" type="button" class="btn btn-secondary" value="7">7</button>
+                                <button onclick="Boton8();" id="8" type="button" class="btn btn-secondary" value="8">8</button>
+                                <button onclick="Boton9();" id="9" type="button" class="btn btn-secondary" value="9">9</button><br>
+                                <button onclick="Boton0();"id="0" type="button" class="btn btn-secondary" value="0">0</button>
+                                <button  onclick="Borrar();" type="reset" class="btn btn-secondary" value=""><svg width="0.5em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-90deg-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4z"/>
+                                </svg></button>
+                        </div>    
+            
+                        <div id="resultado">
+                            <br><br><br>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
+     
